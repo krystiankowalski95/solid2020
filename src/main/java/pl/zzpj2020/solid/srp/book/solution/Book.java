@@ -8,10 +8,8 @@ import lombok.Setter;
 import java.util.HashMap;
 import java.util.Map;
 
-@NoArgsConstructor
 @AllArgsConstructor
 @Getter
-@Setter
 public class Book {
 
 
@@ -20,4 +18,9 @@ public class Book {
     private String title;
 
     private String author;
+
+    public Book(){
+        this.title = "A Great Book";
+        this.author = "John Doe";
+    }
 }
