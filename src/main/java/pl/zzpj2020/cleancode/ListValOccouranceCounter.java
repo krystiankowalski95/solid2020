@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class ListValOccouranceChecker {
+public class ListValOccouranceCounter {
 
     @Getter
     @Setter
@@ -21,7 +21,7 @@ public class ListValOccouranceChecker {
     @Setter
     private int maxValue = Integer.MAX_VALUE;
 
-    public ListValOccouranceChecker() {
+    public ListValOccouranceCounter() {
         occurance = new HashMap<>();
     }
 
