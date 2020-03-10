@@ -5,7 +5,7 @@ import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
 @NoArgsConstructor
-public class Square extends Rectangle implements Figure{
+public class Square implements Figure{
     private double side;
 
     @Override
@@ -14,7 +14,7 @@ public class Square extends Rectangle implements Figure{
     }
 
     @Override
-    public double calcCircuit() {
+    public double calcPerimeter() {
         return 4*side;
     }
 }

@@ -16,7 +16,7 @@ public class Rectangle implements Figure {
     }
 
     @Override
-    public double calcCircuit() {
+    public double calcPerimeter() {
         return 2*height+2*width;
     }
 }
